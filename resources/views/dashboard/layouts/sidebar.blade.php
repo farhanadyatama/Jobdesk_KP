@@ -2,26 +2,26 @@
     <div class="position-sticky pt-3 sidebar-sticky">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link {{ Request::is('dashboard') ? 'active' : '' }}" aria-current="page" href="/dashboard">
-              <span data-feather="home" class="align-text-bottom"></span>
+            <a class="nav-link {{ Request::is('dashboard') ? 'active' : '' }}" href="/dashboard">
+              <i class="fas fa-home"></i>
               Dashboard
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ Request::is('dashboard/user') ? 'active' : '' }}" aria-current="page" href="/dashboard/user">
-              <span data-feather="home" class="align-text-bottom"></span>
+            <a class="nav-link {{ Request::is('dashboard/user') ? 'active' : '' }}" href="/dashboard/user">
+              <i class="fas fa-users"></i>
               User
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ Request::is('dashboard/preservasi*') ? 'active' : '' }}" aria-current="page" href="/dashboard/preservasi">
-              <span data-feather="home" class="align-text-bottom"></span>
+            <a class="nav-link {{ Request::is('dashboard/preservasi*') ? 'active' : '' }}" href="/dashboard/preservasi">
+              <i class="fas fa-archive"></i>
               Preservasi
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ Request::is('dashboard/pembangunan*') ? 'active' : '' }}" aria-current="page" href="/dashboard/pembangunan">
-              <span data-feather="home" class="align-text-bottom"></span>
+            <a class="nav-link {{ Request::is('dashboard/pembangunan*') ? 'active' : '' }}" href="/dashboard/pembangunan">
+              <i class="fas fa-archive"></i>
               Pembangunan
             </a>
           </li>

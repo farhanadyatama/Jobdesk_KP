@@ -121,7 +121,7 @@
             @enderror
         </div>
     </div>
-    <button type="submit" class="btn btn-primary">Create Post</button>
+    <button type="submit" class="btn btn-primary mb-3">Create Post</button>
     </form>
     </div>
 @endsection

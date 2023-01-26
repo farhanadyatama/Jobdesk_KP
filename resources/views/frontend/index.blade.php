@@ -47,7 +47,7 @@
           @auth
             <li><a class="getstarted scrollto" href="dashboard">Back to Dashboard</a></li>
           @else
-            <li><a class="getstarted scrollto" href="login.login">Masuk</a></li>
+            <li><a class="getstarted scrollto" href="login.login">Login</a></li>
           @endauth
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -61,7 +61,7 @@
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
       <div class="row justify-content-center">
         <div class="col-xl-7 col-lg-9 text-center">
-          <img src="assets/img/logo_PUTR.png" alt="">
+          <img src="/img/PUTR_logo.png" alt="">
         </div>
       </div>
       <div class="text-center">

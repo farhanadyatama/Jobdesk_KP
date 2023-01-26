@@ -1,7 +1,7 @@
 @extends('dashboard.layouts.main')
 
 @section('container')
-<div class="col-12 col-sm-8 col-md-7">
+<div class="col-12 col-sm-8 col-md-7 mt-3 mb-3">
     <div class="card">
       <div class="card-header">
         <h4>Data Preservasi</h4>
@@ -88,9 +88,6 @@
         <div>
             <p><b>Keterangan :</b><br/>{{ $reservasi->keterangan }}</p>
         </div>
-      </div>
-      <div class="card-footer text-center bg-whitesmoke">
-        <a href="#" class="btn btn-icon icon-left btn-success" data-toggle="modal" data-target="#newsModal31"><i class="fas fa-image"></i> <span>Ubah Data</span></a>
       </div>
     </div>
   </div>

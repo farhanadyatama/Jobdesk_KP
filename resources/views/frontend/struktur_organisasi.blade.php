@@ -47,7 +47,7 @@
           @auth
             <li><a class="getstarted scrollto" href="dashboard">Back to Dashboard</a></li>
           @else
-            <li><a class="getstarted scrollto" href="login.login">Masuk</a></li>
+            <li><a class="getstarted scrollto" href="login.login">Login</a></li>
           @endauth
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -65,7 +65,7 @@
                     Dinas Pekerjaan Umum dan Tata Ruang Provinsi Sulawesi Selatan
                 </p>
                 <center>
-                    <img src="assets/img/Struktur_Organisasi.jpg" alt="struktur organisasi">
+                    <img src="img/Struktur_Organisasi.jpg" alt="struktur organisasi">
                 </center>
             </div>
         </div>

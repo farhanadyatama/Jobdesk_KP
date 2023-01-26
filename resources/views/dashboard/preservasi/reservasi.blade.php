@@ -1,11 +1,11 @@
 @extends('dashboard.layouts.main')
 
 @section('container')
-<div class="pagetitle">
+<div class="pagetitle ml-3 mt-4">
       <h1>Preservasi</h1>
       <nav>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="/dashboard">Beranda</a></li>
+          <li class="breadcrumb-item"><a href="/dashboard" class="text-decoration-none">Beranda</a></li>
           <li class="breadcrumb-item active">Preservasi</li>
         </ol>
       </nav>
@@ -20,10 +20,10 @@
 
     <div class="table-responsive col-lg-8">
       <a href="/dashboard/preservasi/create" class="btn btn-primary mb-3">Tambah data preservasi</a>
-      <table class="table table-striped table-sm">
+      <table class="table table-hover table-sm content-table">
         <thead>
           <tr>
-            <th scope="col">NO</th>
+            <th scope="col">No</th>
             <th scope="col">Tanggal</th>
             <th scope="col">Nama Kegiatan</th>
             <th scope="col">Nama Perusahaan</th>

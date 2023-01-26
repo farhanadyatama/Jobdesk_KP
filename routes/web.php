@@ -7,6 +7,7 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DashboardReservasiController;
 use App\Http\Controllers\DashboardPembangunanController;
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,14 +50,13 @@ Route::resource('/dashboard/preservasi', DashboardReservasiController::class)->m
 Route::resource('/dashboard/pembangunan', DashboardPembangunanController::class)->middleware('auth');
 
 // dashboard controller
-Route::get('/dashboard', function () {
-    return view('dashboard.index');
-})->middleware('auth');
+// Route::get('/dashboard', function () {
+//     return view('dashboard.index');
+// })->middleware('auth');
+Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
 
 // user backend
 Route::get('/dashboard/user',  [UserController::class, 'index'])->middleware('auth');
-
-
 
 
 // Route::get('/dashboard',  [DashboardController::class, 'index'])->middleware('auth');
