@@ -12,14 +12,16 @@
   </div><!-- End Page Title -->
 
   @if(session()->has('success'))
-    <div class="alert alert-success alert-dismissible fade show col-lg-8" role="alert">
+    <div class="alert alert-success alert-dismissible fade show col-lg-10" role="alert">
       {{ session('success') }}
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
   @endif
 
-  <div class="table-responsive col-lg-8">
+  <div class="table-responsive col-lg-10">
+    @can('admin')
     <a href="/dashboard/pembangunan/create" class="btn btn-primary mb-3">Tambah data pembangunan</a>
+    @endcan
     <table class="table table-hover table-sm content-table">
       <thead>
         <tr>
@@ -39,12 +41,14 @@
             <td>{{ $pembangunan->nama_perusahaan }}</td>
             <td>
               <a href="/dashboard/pembangunan/{{ $pembangunan->id }}" class="btn btn-info bi bi-eye-fill"></a>
+              @can('admin')
               <a href="/dashboard/pembangunan/{{ $pembangunan->id }}/edit" class="btn btn-warning bi bi-pencil-square"></a>
               <form action="/dashboard/pembangunan/{{ $pembangunan->id }}" method="post" class="d-inline">
                 @method('delete')
                 @csrf
                 <button class="btn btn-danger bi bi-trash3-fill" onclick="return confirm('Yakin ingin menghapus?')"></button>
               </form></td>
+              @endcan
           </tr>
         @endforeach
       </tbody>

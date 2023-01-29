@@ -56,7 +56,7 @@ Route::resource('/dashboard/pembangunan', DashboardPembangunanController::class)
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
 
 // user backend
-Route::get('/dashboard/user',  [UserController::class, 'index'])->middleware('auth');
+Route::get('/dashboard/user',  [UserController::class, 'index'])->middleware('admin');
 
 
 // Route::get('/dashboard',  [DashboardController::class, 'index'])->middleware('auth');
