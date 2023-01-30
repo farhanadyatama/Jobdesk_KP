@@ -4,9 +4,15 @@ namespace App\Http\Controllers;
 
 use App\Models\Reservasi;
 use Illuminate\Http\Request;
+use App\Exports\PreservasiExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class DashboardReservasiController extends Controller
 {
+    public function export(){
+        return Excel::download(new PreservasiExport, 'data_preservasi.xlsx');
+    }
+    
     /**
      * Display a listing of the resource.
      *
@@ -30,8 +36,6 @@ class DashboardReservasiController extends Controller
      */
     public function create()
     {
-        $this->authorize('admin');
-
         return view('dashboard.preservasi.create');
     }
 
@@ -43,8 +47,6 @@ class DashboardReservasiController extends Controller
      */
     public function store(Request $request)
     {
-        $this->authorize('admin');
-
         $validatedData = $request->validate([
             'tanggal' => 'required',
             'nama_kegiatan' => 'required|max:255',
@@ -96,8 +98,6 @@ class DashboardReservasiController extends Controller
      */
     public function edit(Reservasi $preservasi)
     {
-        $this->authorize('admin');
-
         return view('dashboard.preservasi.edit',[
             // dd($preservasi),
             'preservasi' => $preservasi
@@ -113,8 +113,6 @@ class DashboardReservasiController extends Controller
      */
     public function update(Request $request, Reservasi $preservasi)
     {
-        $this->authorize('admin');
-
         $validatedData = $request->validate([
             'tanggal' => 'required',
             'nama_kegiatan' => 'required|max:255',
@@ -147,8 +145,7 @@ class DashboardReservasiController extends Controller
      */
     public function destroy(Reservasi $preservasi)
     {
-        $this->authorize('admin');
-
+        
         Reservasi::destroy($preservasi->id);
         return redirect('/dashboard/preservasi')->with('success', 'Data sudah dihapus');
 

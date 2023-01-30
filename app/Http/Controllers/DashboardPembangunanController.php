@@ -4,9 +4,15 @@ namespace App\Http\Controllers;
 
 use App\Models\Pembangunan;
 use Illuminate\Http\Request;
+use App\Exports\PembangunanExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class DashboardPembangunanController extends Controller
 {
+    public function export(){
+        return Excel::download(new PembangunanExport, 'data_pembangunan.xlsx');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -27,8 +33,6 @@ class DashboardPembangunanController extends Controller
      */
     public function create()
     {
-        $this->authorize('admin');
-
         return view('dashboard.pembangunan.create');
     }
 
@@ -40,8 +44,6 @@ class DashboardPembangunanController extends Controller
      */
     public function store(Request $request)
     {
-        $this->authorize('admin');
-
         $validatedData = $request->validate([
             'tanggal' => 'required',
             'nama_kegiatan' => 'required|max:255',
@@ -88,8 +90,6 @@ class DashboardPembangunanController extends Controller
      */
     public function edit(Pembangunan $pembangunan)
     {
-        $this->authorize('admin');
-
         return view('dashboard.pembangunan.edit',[
             // dd($pembangunan),
             'pembangunan' => $pembangunan
@@ -105,7 +105,24 @@ class DashboardPembangunanController extends Controller
      */
     public function update(Request $request, Pembangunan $pembangunan)
     {
-        $this->authorize('admin');
+        // $rules = [
+        //     'tanggal' => 'required',
+        //     'nama_kegiatan' => 'required|max:255',
+        //     'target' => 'required',
+        //     'kontrak' => 'required',
+        //     'nama_perusahaan' => 'required|max:255',
+        //     'konsultan_pengawas' => 'required|max:255',
+        //     'tanggal_kontrak' => 'required',
+        //     'pelaksanaan' => 'required',
+        //     'pemberian_kesempatan' => 'required',
+        //     'tanggal_akhir_kontrak' => 'required',
+        //     'keuangan_rp' => 'required',
+        //     'keuangan_persen' => 'required',
+        //     'fisik_rencana' => 'required',
+        //     'fisik_realisasi' => 'required',
+        //     'fisik_deviasi' => 'required',
+        //     'keterangan' => 'required|max:255'
+        // ];
 
         $validatedData = $request->validate([
             'tanggal' => 'required',
@@ -141,8 +158,6 @@ class DashboardPembangunanController extends Controller
      */
     public function destroy(Pembangunan $pembangunan)
     {
-        $this->authorize('admin');
-
         Pembangunan::destroy($pembangunan->id);
         return redirect('/dashboard/pembangunan')->with('success', 'Data sudah dihapus');
     }

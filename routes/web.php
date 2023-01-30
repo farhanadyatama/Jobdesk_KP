@@ -5,6 +5,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\DashboardController;
+// use App\Http\Controllers\PembangunanExportController;
 use App\Http\Controllers\DashboardReservasiController;
 use App\Http\Controllers\DashboardPembangunanController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
@@ -45,9 +46,13 @@ Route::post('/register',  [RegisterController::class, 'store']);
 
 // preservasi backend
 Route::resource('/dashboard/preservasi', DashboardReservasiController::class)->middleware('auth');
+Route::get('/export/excels', [DashboardReservasiController::class, 'export'])->middleware('auth');
+
 
 // pembangunan backend
 Route::resource('/dashboard/pembangunan', DashboardPembangunanController::class)->middleware('auth');
+Route::get('/export/excel', [DashboardPembangunanController::class, 'export'])->middleware('auth');
+
 
 // dashboard controller
 // Route::get('/dashboard', function () {
@@ -56,7 +61,7 @@ Route::resource('/dashboard/pembangunan', DashboardPembangunanController::class)
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
 
 // user backend
-Route::get('/dashboard/user',  [UserController::class, 'index'])->middleware('admin');
+Route::get('/dashboard/user',  [UserController::class, 'index'])->middleware('auth');
 
 
 // Route::get('/dashboard',  [DashboardController::class, 'index'])->middleware('auth');

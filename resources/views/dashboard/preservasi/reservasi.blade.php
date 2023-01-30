@@ -21,6 +21,7 @@
     <div class="table-responsive col-lg-10">
       @can('admin')
       <a href="/dashboard/preservasi/create" class="btn btn-primary mb-3">Tambah data preservasi</a>
+      <a href="/export/excels" class="btn btn-primary mb-3">Export to excel</a>
       @endcan
       <table class="table table-hover table-sm content-table">
         <thead>
