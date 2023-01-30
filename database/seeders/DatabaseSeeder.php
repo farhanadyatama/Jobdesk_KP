@@ -20,6 +20,11 @@ class DatabaseSeeder extends Seeder
         // \App\Models\Reservasi::factory(10)->create();
         
         User::create([
+            'name' => 'Bina Marga',
+            'email' => 'binamarga@gmail.com',
+            'password' => bcrypt('binamarga')
+        ]);
+        User::create([
             'name' => 'Khaedar',
             'email' => 'hedar@gmail.com',
             'password' => bcrypt('qwerty')

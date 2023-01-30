@@ -19,7 +19,10 @@
   @endif
 
   <div class="table-responsive col-lg-8">
+    @can('admin')
     <a href="/dashboard/pembangunan/create" class="btn btn-primary mb-3">Tambah data pembangunan</a>
+    @endcan
+    <a href="/export/excel" class="btn btn-primary mb-3">Export to excel</a>
     <table class="table table-hover table-sm content-table">
       <thead>
         <tr>
@@ -39,12 +42,14 @@
             <td>{{ $pembangunan->nama_perusahaan }}</td>
             <td>
               <a href="/dashboard/pembangunan/{{ $pembangunan->id }}" class="btn btn-info bi bi-eye-fill"></a>
+              @can('admin')
               <a href="/dashboard/pembangunan/{{ $pembangunan->id }}/edit" class="btn btn-warning bi bi-pencil-square"></a>
               <form action="/dashboard/pembangunan/{{ $pembangunan->id }}" method="post" class="d-inline">
                 @method('delete')
                 @csrf
                 <button class="btn btn-danger bi bi-trash3-fill" onclick="return confirm('Yakin ingin menghapus?')"></button>
               </form></td>
+              @endcan
           </tr>
         @endforeach
       </tbody>

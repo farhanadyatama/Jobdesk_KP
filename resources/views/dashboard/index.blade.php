@@ -19,6 +19,7 @@
           <div class="row">
 
             <!-- User Card -->
+            @can('admin')
             <div class="col-xxl-4 col-md-3 mb-3">
                 <a href="/dashboard/user" class="text-decoration-none">
                   <div class="card info-card user-card">
@@ -39,6 +40,7 @@
                   </div>
                 </a>
               </div><!-- End User Card -->
+            @endcan
 
             <!-- Reservasi Card -->
             <div class="col-xxl-4 col-md-3 mb-3">

@@ -7,12 +7,14 @@
               Dashboard
             </a>
           </li>
+          @can('admin')
           <li class="nav-item">
             <a class="nav-link {{ Request::is('dashboard/user') ? 'active' : '' }}" href="/dashboard/user">
               <i class="fas fa-users"></i>
               User
             </a>
           </li>
+          @endcan
           <li class="nav-item">
             <a class="nav-link {{ Request::is('dashboard/preservasi*') ? 'active' : '' }}" href="/dashboard/preservasi">
               <i class="fas fa-archive"></i>
