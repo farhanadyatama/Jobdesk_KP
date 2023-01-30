@@ -37,6 +37,12 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('user123')
         ]);
 
+        User::create([
+            'name' => 'User003',
+            'email' => 'user003@gmail.com',
+            'password' => bcrypt('user123')
+        ]);
+
         Reservasi::create([
             'tanggal' => '2022-12-04',
             'nama_kegiatan' => 'Preservasi Satu',
