@@ -37,6 +37,7 @@ class DashboardReservasiController extends Controller
     public function create()
     {
         return view('dashboard.preservasi.create');
+        $this->authorize('admin');
     }
 
     /**

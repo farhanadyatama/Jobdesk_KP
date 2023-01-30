@@ -20,27 +20,21 @@ class DatabaseSeeder extends Seeder
         // \App\Models\Reservasi::factory(10)->create();
 
         User::create([
-            'name' => 'Bina Marga',
+            'name' => 'Bina marga',
             'email' => 'binamarga@gmail.com',
             'password' => bcrypt('binamarga')
         ]);
-        
+
         User::create([
-            'name' => 'User001',
+            'name' => 'user001',
             'email' => 'user001@gmail.com',
-            'password' => bcrypt('user123')
+            'password' => bcrypt('user001')
         ]);
 
         User::create([
             'name' => 'User002',
             'email' => 'user002@gmail.com',
-            'password' => bcrypt('user123')
-        ]);
-
-        User::create([
-            'name' => 'User003',
-            'email' => 'user003@gmail.com',
-            'password' => bcrypt('user123')
+            'password' => bcrypt('user002')
         ]);
 
         Reservasi::create([
@@ -71,7 +65,7 @@ class DatabaseSeeder extends Seeder
             'konsultan_pengawas' => 'PT. INDRA CIPTA DIMENSI',
             'tanggal_kontrak' => '2022-03-30',
             'pelaksanaan' => '150',
-            'pemberian_kesempatan' => '',
+            'pemberian_kesempatan' => '-',
             'tanggal_akhir_kontrak' => '2022-08-26',
             'keuangan_rp' => '4,199,890,419',
             'keuangan_persen' => '100',

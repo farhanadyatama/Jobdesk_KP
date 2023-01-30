@@ -1,7 +1,7 @@
 @extends('dashboard.layouts.main')
 
 @section('container')
-<div class="pagetitle ml-2 mt-4">
+<div class="pagetitle ml-2 mt-4 ml-3">
   <h1>Users</h1>
   <nav>
     <ol class="breadcrumb">

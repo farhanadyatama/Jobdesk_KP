@@ -12,7 +12,7 @@
   </div><!-- End Page Title -->
 
   @if(session()->has('success'))
-    <div class="alert alert-success alert-dismissible fade show col-lg-10" role="alert">
+    <div class="alert alert-success alert-dismissible fade show col-lg-9 ml-3" role="alert">
       {{ session('success') }}
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
@@ -21,8 +21,8 @@
   <div class="table-responsive col-lg-10">
     @can('admin')
     <a href="/dashboard/pembangunan/create" class="btn btn-primary mb-3">Tambah data pembangunan</a>
-    <a href="/export/excel" class="btn btn-primary mb-3">Export to excel</a>
     @endcan
+    <a href="/export/excel" class="btn btn-primary mb-3">Export to excel</a>
     <table class="table table-hover table-sm content-table">
       <thead>
         <tr>
