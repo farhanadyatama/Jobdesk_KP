@@ -113,52 +113,74 @@
 
         <div class="section-title">
           <h2>Tentang</h2>
-          <p>Bina Kontruksi & Bina Marga</p>
+          <p>Dinas Pekerjaan Umum Dan Tata Ruang Provinsi Sulawesi Selatan</p>
         </div>
 
-        <div class="row content">
+        <div class="row content justify-content-center">
+          <div class="text-center mb-2">
+            <p>
+              <b>Dinas Pekerjaan Umum Dan Tata Ruang</b>, melaksanakan urusan pekerjaan umum dan penataan ruang. Adapun Susunan Organisasi Dinas, terdiri dari:
+            </p>
+          </div>
+
           <div class="col-lg-6">
-            <h1>
-              Bina Kontruksi
-            </h1>
-            <p>
-              <b>Direktorat Jenderal Bina Konstruksi</b> mempunyai tugas menyelenggarakan perumusan dan pelaksanaan kebijakan di bidang pembinaan jasa konstruksi sesuai dengan ketentuan peraturan perundang-undangan.
-            </p>
-            <p>
-              Dalam melaksanakan tugas Direktorat Jenderal Bina Konstruksi menyelenggarakan fungsi:
-            </p>
-            <ol>
-              <li>perumusan kebijakan di bidang pembinaan penyelenggaraan, kelembagaan, dan sumber daya jasa konstruksi;</li>
-              <li>pelaksanaan kebijakan di bidang pembinaan penyelenggaraan, kelembagaan, dan sumber daya jasa konstruksi;</li>
-              <li>pelaksanaan kebijakan di bidang pemberdayaan dan pengawasan penyelenggaraan jasa konstruksi yang dilaksanakan oleh masyarakat dan pemerintah daerah;</li>
-              <li>penyusunan norma, standar, prosedur, dan kriteria di bidang pembinaan jasa konstruksi;</li>
-              <li>pelaksanaan bimbingan teknis dan supervisi di bidang pembinaan penyelenggaraan, kelembagaan, dan sumber daya jasa konstruksi;</li>
-              <li>pelaksanaan evaluasi dan pelaporan di bidang pembinaan penyelenggaraan, kelembagaan, dan sumber daya jasa konstruksi;</li>
-              <li>pelaksanaan administrasi Direktorat Jenderal Bina Konstruksi; dan</li>
-              <li>pelaksanaan fungsi lain yang diberikan oleh Menteri.</li>
-            </ol>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <h1>
-              Bina Marga
-            </h1>
-            <p>
-              <b>Direktorat Jenderal Bina Marga</b> mempunyai tugas menyelenggarakan perumusan dan pelaksanaan kebijakan di bidang penyelenggaraan jalan sesuai dengan ketentuan peraturan perundang-undangan. 
-            </p>
-            <p>
-              Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 291, Direktorat Jenderal Bina Marga menyelenggarakan fungsi: 
-            </p>
-            <ol>
-              <li>perumusan kebijakan di bidang penyelenggaraan jalan sesuai dengan ketentuan peraturan perundangundangan;</li>
-              <li>pelaksanaan kebijakan di bidang penyelenggaraan jalan nasional;</li>
-              <li>pelaksanaan kebijakan di bidang penguatan konektivitas yang menjadi prioritas nasional;</li>
-              <li>penyusunan norma, standar, prosedur,dan kriteria di bidang penyelenggaraan jalan;</li>
-              <li>pemberian bimbingan teknis dan supervisi di bidang penyelenggaraan jalan;</li>
-              <li>pelaksanaan evaluasi dan pelaporan di bidang penyelenggaraan jalan;</li>
-              <li>pelaksanaan administrasi Direktorat Jenderal Bina Marga; dan</li>
-              <li>pelaksanaan fungsi lain yang diberikan oleh Menteri Pekerjaan Umum dan Perumahan Rakyat.</li>
-            </ol>
-          </div>
+            <ol type="1">
+              <li><b>Kepala Dinas</b></li>
+              <li><b>Sekretaris</b>, meliputi:</li>
+                <ol type="1">
+                  <li>Subbagian Program;</li>
+                  <li>Subbagian Umum, Kepegawaian Dan Hukum; dan</li>
+                  <li>Subbagian Keuangan.</li>
+                </ol>
+              <li><b>Jabatan Fungsional</b></li>
+              <li><b>Bidang Sumber Daya Air</b>, meliputi:</li>
+                <ol type="1">
+                  <li>Seksi Operasi Dan Pemeliharaan;</li>
+                  <li>Seksi Pelaksanaan; dan</li>
+                  <li>Seksi Monitoring, Evaluasi Dan Pengendalian.</li>
+                </ol>
+              <li><b>Bidang Bina Marga</b>, meliputi:</li>
+                <ol type="1">
+                  <li>Seksi Pembangunan Jalan Dan Jembatan;</li>
+                  <li>Seksi Preservasi Jalan Dan Jembatan; dan</li>
+                    <li>Seksi Monitoring, Evaluasi Dan Pengendalian.</li>
+                  </ol>
+              </ol>
+            </div>
+
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <ol start="6">
+                <li><b>Bidang Bina Cipta Karya</b>, meliputi:</li>
+                  <ol type="1">
+                    <li>Seksi Pengembangan Sistem Pengelolaan Air Minum Dan Penyehatan Lingkungan Permukiman;</li>
+                    <li>Seksi Penataan Bangunan Dan Pengembangan Kawasan Permukiman; dan</li>
+                    <li>Seksi Monitoring, Evaluasi Dan Pengendalian.</li>
+                  </ol>
+                <li><b>Bidang Bina Konstruksi</b>, meliputi:</li>
+                  <ol type="1">
+                    <li>Seksi Pengaturan Tata Teknis;</li>
+                    <li>Seksi Pembinaan Jasa Kontruksi; dan</li>
+                    <li>Seksi Monitoring, Evaluasi Dan Pengendalian.</li>
+                  </ol>
+                <li><b>Bidang Tata Ruang</b>, meliputi:</li>
+                  <ol type="1">
+                    <li>Seksi Pengaturan Dan Pengembangan;</li>
+                    <li>Seksi Pengendalian Dan Penertiban; dan</li>
+                    <li>Seksi Data Base Dan Informasi.</li>
+                  </ol>
+                <li><b>Bidang Bina Teknik Dan Perencanaan</b>, meliputi:</li>
+                  <ol type="1">
+                    <li>Seksi Teknik Dan Perencanaan Sumber Daya Air;</li>
+                    <li>Seksi Teknik Dan Perencanaan Bina Marga; dan</li>
+                    <li>Seksi Teknik Dan Perencanaan Cipta Karya.</li>
+                  </ol>
+              </ol>
+            </div>
+
+            <div class="text-center">
+              <a href="struktur_organisasi" class="btn-learn-more scrollto">Selengkapnya</a>
+            </div>
+            
         </div>
       </div>
     </section>
@@ -216,7 +238,7 @@
         <div class="row">
 
           <div class="col-lg-8 col-md-2 footer-contact">
-            <h3>PUTR</h3>
+            <h3 class="fw-bold">PUTR</h3>
             <p>
               Jl. A. P. Pettarani No.90, Masale, <br>
               Panakkukang, Kota Makassar, <br>

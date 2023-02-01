@@ -61,7 +61,7 @@
         <div class="container" data-aos="fade-up">
             <div class="section-title">
                 <h2>Struktur Organisasi</h2>
-                <p>
+                <p class="mb-5">
                     Dinas Pekerjaan Umum dan Tata Ruang Provinsi Sulawesi Selatan
                 </p>
                 <center>
@@ -71,6 +71,211 @@
         </div>
     </section><!-- End Struktur Organisasi Section -->
 
+    <main id="main">
+      <!-- ======= Struktur Organisasi Section ======= -->
+      <section id="strukturorganisasi" class="strukturorganisasi">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Susunan Organisasi</h2>
+            <p>Adapun Susunan Organisasi Dinas Pekerjaan Umum dan Tata Ruang Provinsi Sulawesi Selatan, terdiri dari:</p>
+          </div>
+
+          <div class="row content">  
+            <div class="text-center mb-4">
+              <h1>
+                Kepala Dinas
+              </h1>
+              <p>
+                Kepala Dinas mempunyai tugas membantu Gubernur menyelenggarakan urusan pemerintahan bidang pekerjaan umum dan penataan ruang, yang menjadi kewenangan daerah dan tugas pembantuan yang ditugaskan kepada pemerintah daerah.
+              </p>
+            </div>
+          </div>
+  
+          <div class="row content">  
+            <div class="col-lg-6">
+              <h1>
+                Jabatan Fungsional
+              </h1>
+              <p>
+                Jabatan Fungsional adalah jabatan fungsional yang telah ditetapkan berdasarkan ketentuan peraturan perundang-undangan.
+              </p>
+            </div>
+
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <h1>
+                Sekretaris
+              </h1>
+              <p>
+                Sekretariat dipimpin oleh Sekretaris yang mempunyai tugas membantu Kepala Dinas dalam mengoordinasikan kegiatan, memberikan pelayanan teknis dan administrasi penyusunan program, pelaporan, umum, kepegawaian, hukum, dan keuangan dalam lingkungan Dinas. Sekretaris, meliputi:
+              </p>
+              <ol>
+                <li>Subbagian Program</li>
+                  <p>
+                    Subbagian Program dipimpin oleh Kepala Subbagian yang mempunyai tugas membantu Sekretaris dalam mengumpulkan bahan dan mengelola penyusunan program, penyajian data dan informasi, serta penyusunan laporan.
+                  </p>
+                <li>Subbagian Umum, Kepegawaian Dan Hukum</li>
+                  <p>
+                    Subbagian Umum, Kepegawaian Dan Hukum dipimpin oleh Kepala Subbagian yang mempunyai tugas membantu urusan ketatausahaan, administrasi pengadaan, pemeliharaan dan penghapusan barang, urusan rumah tangga serta mengelola administrasi kepegawaian dan hukum.
+                  </p>
+                <li>Subbagian Keuangan</li>
+                  <p>
+                    Subbagian Keuangan dipimpin oleh Kepala Subbagian yang mempunyai tugas membantu Sekretaris dalam mengumpulkan bahan dan melakukan pengelolaan administrasi dan pelaporan keuangan.
+                  </p>
+              </ol>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="col-lg-6">
+              <h1>
+                Bidang Sumber Daya Air
+              </h1>
+              <p>
+                Bidang Sumber Daya Air dipimpin oleh kepala bidang yang mempunyai tugas membantu kepala dinas dalam mengoordinasikan, merumuskan dan melaksanakan kebijakan Teknik bidang sumber daya air. Bidang Sumber Daya Air, meliputi:
+              </p>
+              <ol>
+                <li>Seksi Operasi Dan Pemeliharaan</li>
+                  <p>
+                    Seksi Operasi Dan Pemeliharaan, dipimpin oleh Kepala Seksi yang mempunyai tugas membantu Kepala Bidang Sumber Daya Air dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan Teknik operasi dan pemeliharaan.
+                  </p>
+                <li>Seksi Pelaksanaan</li>
+                  <p>
+                    Seksi Pelaksanaan dipimpin oleh Kepala Seksi yang mempunyai tugas membantu Kepala Bidang Sumber Daya Air dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan teknis pelaksanaan.
+                  </p>
+                <li>Seksi Monitoring, Evaluasi Dan Pengendalian.</li>
+                  <p>
+                    Seksi Monitoring, Evaluasi Dan Pengendalian dipimpin oleh Kepala Seksi yang mempunyai tugas membantu Kepala Bidang Sumber Daya Air dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebihakan Teknik monitoring, evaluasi dan pengendalian.
+                  </p>
+              </ol>
+            </div>
+  
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <h1>
+                Bidang Bina Marga
+              </h1>
+              <p>
+                Bidang Bina Marga dipimpin oleh Kepala Bidang yang mempunyai tugas membantu Kepala Dinas dalam mengkoordinasikan, merumuskan dan melaksanakan kebijakan teknis bidang bina marga. Bidang Bina Marga, meliputi: 
+              </p>
+              <ol>
+                <li>Seksi Pembangunan Jalan Dan Jembatan</li>
+                  <p>
+                    Seksi Pembangunan Jalan Dan Jembatan, dipimpin oleh Kepala Seksi yang mempunyai tugas membantu Kepala Bidang Bina Marga dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan teknis pembangunan jalan dan jembatan.
+                  </p>
+                <li>Seksi Preservasi Jalan Dan Jembatan</li>
+                  <p>
+                    Seksi Preservasi Jalan Dan Jembatan dipimpin oleh Kepala Seksi yang mempunyai tugas membantu Kepala Bidang Bina Marga dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan teknis preservasi jalan dan jembatan.
+                  </p>
+                <li>Seksi Monitoring, Evaluasi Dan Pengendalian</li>
+                  <p>
+                    Seksi Monitoring, Evaluasi Dan Pengendalian dipimpin oleh Kepala Seksi yang mempunyai tugas membantu Kepala Bidang Bina Marga dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan teknis monitoring, evaluasi dan pengendalian.
+                  </p>
+              </ol>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="col-lg-6">
+              <h1>
+                Bidang Bina Cipta Karya
+              </h1>
+              <p>
+                Bidang Bina Cipta Karya dipimpin oleh kepala bidang yang mempunyai tugas membantu kepala dinas dalam mengoordinasikan, merumuskan dan melaksanakan kebijakan teknis bidang bina cipta karya. Bidang Bina Cipta Karya, meliputi:
+              </p>
+              <ol>
+                <li>Seksi Pengembangan Sistem Pengelolaan Air Minum Dan Penyehatan Lingkungan Permukiman</li>
+                  <p>
+                    Seksi Pengembangan Sistem Pengelolaain Air Minum Dan Penyehatan Lingkungan Permukiman dipimpin oleh kepala seksi yang mempunyai tugas membantu Kepala Bidang Bina Cipta Karya dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan teknis pengembangan sistem pengelolaan air minum dan penyehatan lingkungan permukiman.
+                  </p>
+                <li>Seksi Penataan Bangunan Dan Pengembangan Kawasan Permukiman</li>
+                  <p>
+                    Seksi Penataan Bangunan Dan Pengembangan Kawasan Permukiman dipimpin oleh kepala seksi yang mempunyai tugas membantu Kepala Bidang Cipta Karya dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijkana teknis penataan bangunan dan pengembangan Kawasan permukiman.
+                  </p>
+                <li>Seksi Monitoring, Evaluasi Dan Pengendalian</li>
+                  <p>
+                    Seksi Monitoring, Evaluasi Dan Pengendalian dipimpin oleh Kepala Seksi yang mempunyai tugas membantu Kepala Bidang Sumber Daya Air dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebihakan Teknik monitoring, evaluasi dan pengendalian.
+                  </p>
+              </ol>
+            </div>
+  
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <h1>
+                Bidang Bina Konstruksi
+              </h1>
+              <p>
+                Bidang Bina Konstruksi dipimpin oleh kepala bidang yang mempunyai tugas membantu Kepala Dinas dalam mengoordinasikan, merumuskan dan melaksanakan kebijakan teknis Bidang Bina Konstruksi. Bidang Bina Konstruksi, meliputi: 
+              </p>
+              <ol>
+                <li>Seksi Pengaturan Tata Teknis</li>
+                  <p>
+                    Seksi Pengaturan Tata Teknis dipimpin oleh kepala seksi yang mempunyai tugas membantu Kepala Bidang Bina Konstruksi dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan teknis pengaturan tata teknis.
+                  </p>
+                <li>Seksi Pembinaan Jasa Konstruksi</li>
+                  <p>
+                    Seksi Pembinaan Jasa Konstruksi dipimpin oleh kepala seksi yang mempunyai tugas membantu Kepala Bidang Bina Konstruksi dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan teknis pembinaan jasa konstruksi.
+                  </p>
+                <li>Seksi Monitoring, Evaluasi Dan Pengendalian</li>
+                  <p>
+                    Seksi Monitoring, Evaluasi Dan Pengendalian dipimpin oleh Kepala Seksi mempunyai tugas membantu Kepala Bidang Bina Konstruksi dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan teknis monitoring, evaluasi dan pengendalian.
+                  </p>
+              </ol>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="col-lg-6">
+              <h1>
+                Bidang Tata Ruang
+              </h1>
+              <p>
+                Bidang Tata Ruang dipimpin oleh kepala bidang yang mempunyai tugas membantu kepala dinas dalam mengoordinasikan, merumuskan dan melaksanakan kebijakan teknis bidang tata ruang. Bidang Tata Ruang, meliputi:
+              </p>
+              <ol>
+                <li>Seksi Pengaturan Dan Pengembangan</li>
+                  <p>
+                    Seksi Pengaturan Dan Pengembangan dipimpin oleh Kepala Seksi yang mempunyai tugas membantu Kepala Bidang Tata Ruang dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan teknis pengaturan dan pengembangan.
+                  </p>
+                <li>Seksi Pengendalian Dan Penertiban</li>
+                  <p>
+                    Seksi Pengendalian Dan Penertiban dipimpin oleh Kepala Seksi yang mempunyai tugas membantu Kepala Bidang Tata Ruang dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan teknis pengendalian dan penertiban.
+                  </p>
+                <li>Seksi Data Base Dan Informasi</li>
+                  <p>
+                    Seksi Database Dan Informasi yang mempunyai tugas membantu Kepala Bidang Tata Ruang dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan teknis <i>database</i> dan informasi.
+                  </p>
+              </ol>
+            </div>
+  
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <h1>
+                Bidang Bina Teknik Dan Perencanaan
+              </h1>
+              <p>
+                Bidang Bina Teknik Dan Perencanaan dipimpin oleh kepala bidang yang mempunyai tugas membantu kepala dinas dalam mengoordinasikan, merumuskan dan melaksanakan kebijakan teknis bidang Teknik dan perencanaan. Bidang Bina Teknik Dan Perencanaan, meliputi: 
+              </p>
+              <ol>
+                <li>Seksi Teknik Dan Perencanaan Sumber Daya Air</li>
+                  <p>
+                    Seksi Teknik Dan Perencanaan Sumber Daya Air dipimpin oleh Kepala Seksi yang mempunyai tugas membantu Kepala Bidang Teknik dan Perencanaan dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan teknis Teknik dan perencanaan sumber daya air.
+                  </p>
+                <li>Seksi Teknik Dan Perencanaan Bina Marga</li>
+                  <p>
+                    Seksi Teknik Dan Perencanaan Bina Marga dipimpin oleh Kepala Seksi yang mempunyai tugas membantu Kepala Bidang Teknik dan Perencanaan dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan teknis Teknik dan perencanaan bina marga.
+                  </p>
+                <li>Seksi Teknik Dan Perencanaan Cipta Karya</li>
+                  <p>
+                    Seksi Teknik Dan Perencanaan Cipta Karya dipimpin oleh Kepala Seksi yang mempunyai tugas membantu Kepala Bidang Teknik dan Perencanaa dalam melakukan penyiapan bahan perumusan dan pelaksanaan kebijakan teknis Teknik dan perencanaan cipta karya.
+                  </p>
+              </ol>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+      <!-- End Struktur Organisasi Section -->
+    </main><!-- End #main -->
+
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
@@ -79,7 +284,7 @@
         <div class="row">
 
           <div class="col-lg-8 col-md-2 footer-contact">
-            <h3>PUTR</h3>
+            <h3 class="fw-bold">PUTR</h3>
             <p>
               Jl. A. P. Pettarani No.90, Masale, <br>
               Panakkukang, Kota Makassar, <br>
